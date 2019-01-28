@@ -12,6 +12,11 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hellow World!");
             Student student = new Student("12-21822-2","Hossain, Md. Arif", "CSE", "arif_sk@outlook.com",3.30);
+            Console.WriteLine(student.Id);
+            Console.WriteLine(student.Name);
+            Console.WriteLine(student.Department);
+            Console.WriteLine(student.Email);
+            Console.WriteLine(student.CGPA);
             Console.ReadKey();
         }
     }

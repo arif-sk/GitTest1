@@ -22,5 +22,6 @@ namespace ConsoleApp1
             this.CGPA = cgpa;
         }
         //write a method that will calculate your cgpa
+        //write a method that will return cgpa
     }
 }

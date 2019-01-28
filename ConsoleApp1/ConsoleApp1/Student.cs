@@ -21,5 +21,6 @@ namespace ConsoleApp1
             this.Email = email;
             this.CGPA = cgpa;
         }
+        //write a method that will calculate your cgpa
     }
 }

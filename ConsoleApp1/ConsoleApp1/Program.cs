@@ -17,6 +17,7 @@ namespace ConsoleApp1
             Console.WriteLine(student.Department);
             Console.WriteLine(student.Email);
             Console.WriteLine(student.CGPA);
+            Employee emp = new Employee();
             Console.ReadKey();
         }
        

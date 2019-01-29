@@ -17,7 +17,14 @@ namespace ConsoleApp1
             Console.WriteLine(student.Department);
             Console.WriteLine(student.Email);
             Console.WriteLine(student.CGPA);
-            Employee emp = new Employee();
+            Employee emp = new Employee {
+                Id = "18-82247-1",
+                Name = "John Smith",
+                Email = "john@gmail.com",
+                Address = "Dream Street, London, UK",
+                Salary = "5000 Pounds"
+            };
+            Console.WriteLine(emp.Name == ""?"No Name Found":emp.Name);
             Console.ReadKey();
         }
        

@@ -13,7 +13,7 @@ namespace ConsoleApp1
         public string Department { get; set; }
         public string Email { get; set; }
         public double CGPA { get; set; }
-        public Student(string id,string name,string department, string email, double cgpa)
+        public Student(string id, string name, string department, string email, double cgpa)
         {
             this.Id = id;
             this.Name = name;
@@ -23,5 +23,13 @@ namespace ConsoleApp1
         }
         //write a method that will calculate your cgpa
         //write a method that will return cgpa
+    }
+    public class Employee
+    {
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Address { get; set; }
+        public string Salary { get; set; }
     }
 }

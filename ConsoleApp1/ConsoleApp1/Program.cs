@@ -25,6 +25,8 @@ namespace ConsoleApp1
                 Salary = "5000 Pounds"
             };
             Console.WriteLine(emp.Name == ""?"No Name Found":emp.Name);
+            Calculator cal = new Calculator();
+            Console.WriteLine(cal.Add());
             Console.ReadKey();
         }
        

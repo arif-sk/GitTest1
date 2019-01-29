@@ -8,13 +8,9 @@ namespace ConsoleApp1
 {
     class Calculator
     {
-        public int Add()
+        public int Add(var num1,var num2)
         {
-            //this method will add two numbers
-            int num1 = 0;
-            int num2 = 0;
-            int sum = num1 + num2;
-            return sum;
+            return num1+num2;
         }
     }
 }

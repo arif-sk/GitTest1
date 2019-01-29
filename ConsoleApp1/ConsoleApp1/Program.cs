@@ -27,6 +27,7 @@ namespace ConsoleApp1
             Console.WriteLine(emp.Name == ""?"No Name Found":emp.Name);
             Calculator cal = new Calculator();
             Console.WriteLine(cal.Add(10,10));
+            Console.WriteLine(cal.Sub(12,20));
             Console.ReadKey();
         }
        
